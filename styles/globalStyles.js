@@ -11,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
         --background: #a6b79f;
         --button: #7E0707;
         --white: #FFFFFF;
+        --numbers: #F3F7F4;
     }
 
     html, body {
@@ -39,7 +40,6 @@ const GlobalStyles = createGlobalStyle`
     }
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: TTNorms-Bold, BasisGrotesquePro-Bold, Arial, sans-serif;
         font-weight: 400;
     }
 

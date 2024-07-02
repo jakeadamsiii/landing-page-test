@@ -10,8 +10,11 @@ const TTNormsBold = localFont({ src: '../assets/fonts/TTNorms-Bold.woff'});
 
 const HeroContainer = styled.section`
     width: 100%;
-    height: 46.875rem;
+    height: 37.875rem;
     background: var(--background);
+    @media only screen and (min-width: ${breakpoints.md}){
+        height: 46.875rem;
+    }
 
 `
 
@@ -25,7 +28,12 @@ const Flex = styled.div`
     img {
         display: flex;
         align-self: end;
+        display: none; 
+        @media only screen and (min-width: 990px){
+            display: block;
+        }
     }
+
 `
 
 
@@ -33,8 +41,8 @@ const Content = styled.div`
     max-width: 30rem;
 
     h1 {
-        font-size: 5.625rem;
-        line-height: 5.625rem;
+        font-size: 4.625rem;
+        line-height: 4.625rem;
         letter-spacing: -.168rem;
         margin: 0;
     }
@@ -49,12 +57,20 @@ const Content = styled.div`
         text-transform: uppercase;
         color: var(--white);
         padding: .938rem 1.875rem;
-        font-size: .625;
+        font-size: .625rem;
         line-height: .938rem;
         letter-spacing: .063rem;
         background: var(--button);
         margin-top: 2.25rem;
     }
+
+    @media only screen and (min-width: ${breakpoints.md}){
+        h1 {
+            font-size: 5.625rem;
+            line-height: 5.625rem;
+        }
+    }
+
 `
 
 
