@@ -8,6 +8,9 @@ const GlobalStyles = createGlobalStyle`
         --secondary: #E8EFE9;
         --line: #BDCDC5;
         --copyright: #6D8A83;
+        --background: #a6b79f;
+        --button: #7E0707;
+        --white: #FFFFFF;
     }
 
     html, body {
@@ -57,6 +60,11 @@ const GlobalStyles = createGlobalStyle`
         padding: 0;
     }
 
+    button {
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
 
   `;
 

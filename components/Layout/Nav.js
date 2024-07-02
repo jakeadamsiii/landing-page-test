@@ -7,6 +7,7 @@ const Navigation = styled.nav`
     width: 100%;
     background: transparent;
     padding: 1.875rem 0;
+    position: absolute;
 `
 
 const LogoImage = styled.img`
