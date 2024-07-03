@@ -15,7 +15,6 @@ const HeroContainer = styled.section`
     @media only screen and (min-width: ${breakpoints.md}){
         height: 46.875rem;
     }
-
 `
 
 const Flex = styled.div`
@@ -74,7 +73,7 @@ const Content = styled.div`
 `
 
 
-export default function Hero() {
+export default function Hero({handleShowModal}) {
 
     return (
         <HeroContainer>
@@ -86,7 +85,7 @@ export default function Hero() {
                         to yourself
                     </h1>
                     <p>We’re working around the clock to bring you a holistic approach to your wellness. From top to bottom, inside and out.</p>
-                    <button className={TTNormsBold.className}>
+                    <button onClick={() => handleShowModal(true)} className={TTNormsBold.className}>
                         Take the quiz
                     </button>
                 </Content>
