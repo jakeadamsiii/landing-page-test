@@ -14,8 +14,8 @@ const FlexContainer = styled.div`
 
     @media only screen and (min-width: ${breakpoints.md}){
         flex-direction: ${props => props.alignRight ? "row-reverse" : "row"};
-        margin-bottom: 90px;
-        padding-top: ${props => props.alignRight ? "90px" : "0"};
+        margin-bottom: 5.625rem;
+        padding-top: ${props => props.alignRight ? "5.625rem" : "0"};
     }
 `
 
@@ -36,11 +36,11 @@ const Left = styled.div`
         font-weight: 700;
         top: 100%;
         left: -20%;
-        font-size: 260px;
+        font-size: 16.25rem;
     }
 
     img {
-        max-width: 470px;
+        max-width: 29.375rem;
         object-fit: contain;
         width: 100%;
         height: 100%;
@@ -50,7 +50,7 @@ const Left = styled.div`
         width: unset;
 
         &:after {
-            font-size: 450px;
+            font-size: 28.125rem;
             top: unset;
             right: ${props => props.alignRight ? "initial" : "-100%"};
             left: ${props => props.alignRight ? "-130%" : "initial"};
@@ -58,8 +58,8 @@ const Left = styled.div`
 
         img {
             object-fit: cover;
-            width: 370px;
-            height: 445px;
+            width: 23.125rem;
+            height: 27.813rem;
         }
     }
 
@@ -81,7 +81,7 @@ const Right = styled.div`
 
     @media only screen and (min-width: ${breakpoints.md}){
         width: unset;
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     @media only screen and (min-width: 940px){
@@ -90,33 +90,33 @@ const Right = styled.div`
 
 `
 const Content = styled.div`
-    max-width: 370px;
-    padding: 40px 0 80px;
+    max-width: 23.125rem;
+    padding: 2.5rem 0 5rem;
 
     h3 {
-        margin: 10px 0 22px;
-        font-size: 25px;
-        line-height: 35px;
+        margin: 0.625rem 0 1.375rem;
+        font-size: 1.563rem;
+        line-height: 2.188rem;
     }
 
     p {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 1.125rem;
+        line-height: 1.875rem;
     }
 
     @media only screen and (min-width: ${breakpoints.md}){
         padding: 0;
 
         h3 {
-            font-size: 28px;
-            line-height: 40px;
+            font-size: 1.75rem;
+            line-height: 2.5rem;
         }
     }
 
 `
 const Title = styled.span`
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 0.625rem;
+    line-height: 0.938rem;
     letter-spacing: 2px;
     color: var(--copyright);
     text-transform: uppercase;

@@ -11,7 +11,10 @@ export default function Layout(props) {
     return (
         <>
             <Head>
-                <title>Hello jake</title>
+                <title>Discover Effective Hair Loss Treatments Online | Manual.co</title>
+                <meta name="title" content="Discover Effective Hair Loss Treatments Online | Manual.co" />
+                <meta name="description" content="Looking for hair loss treatment? Buy medication and treatments online from Manual.co, a licensed UK pharmacy. GMC accredited clinicians offer free next day delivery. Get your hair back now!" />
+                <meta name="robots" content="index,follow" />
             </Head>
             <GlobalStyles />
             <Nav />

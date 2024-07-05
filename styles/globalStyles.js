@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import breakpoints from "./breakpoints";
 
 const GlobalStyles = createGlobalStyle`
 
@@ -12,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
         --button: #7E0707;
         --white: #FFFFFF;
         --numbers: #F3F7F4;
-        --questionaire: #F8F7F6;
+        --questionnaire: #F8F7F6;
     }
 
     html, body {

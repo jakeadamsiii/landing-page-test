@@ -9,9 +9,7 @@ const StyledContainer = styled.section`
   box-sizing: border-box;
   position: relative;
   padding: 0 1.5rem;
-  max-width: 67.5rem; /*1080px*/
-  
-  
+  max-width: 67.5rem; /*1080px*;
 `;
 
 const Container = ({ children }) => {

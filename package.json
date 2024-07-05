@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@next/font": "^14.2.4",
@@ -14,5 +15,10 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "html-webpack-plugin": "^5.6.0",
+    "start-server-and-test": "^2.0.4"
   }
 }

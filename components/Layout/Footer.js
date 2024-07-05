@@ -124,8 +124,8 @@ const Li = styled.li`
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 10px;
-        width: 6px;
+        height: .625rem;
+        width: .375rem;
         display: ${props => props.social ? "none" : "block"};
         position: absolute;
         right: 0;

@@ -72,7 +72,6 @@ const Content = styled.div`
 
 `
 
-
 export default function Hero({handleShowModal}) {
 
     return (
@@ -85,7 +84,7 @@ export default function Hero({handleShowModal}) {
                         to yourself
                     </h1>
                     <p>We’re working around the clock to bring you a holistic approach to your wellness. From top to bottom, inside and out.</p>
-                    <button onClick={() => handleShowModal(true)} className={TTNormsBold.className}>
+                    <button aria-label="take the quiz" onClick={() => handleShowModal(true)} className={TTNormsBold.className}>
                         Take the quiz
                     </button>
                 </Content>
