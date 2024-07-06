@@ -258,7 +258,7 @@ export default function Questionnaire({questionnaireModalVisable, handleShowModa
                     <Results>
                         {Object.values(answers).some((answer) => answer.isRejection === true ) ? 
                             <p>Unfortunately, we are unable to prescribe this medication for you. This is because finasteride can alter the PSA levels, which may be used to monitor for cancer. You should discuss this further with your GP or specialist if you would still like this medication</p> :
-                            <p>Great news! We have the perfect treatment for your hair loss. Proceed to <a href="www.manual.co" terget="_blank">www.manual.co</a>, and prepare to say hello to your new hair!</p>
+                            <p>Great news! We have the perfect treatment for your hair loss. Proceed to <a href="https://www.manual.co" target="_blank">www.manual.co</a>, and prepare to say hello to your new hair!</p>
                         }
                     </Results>
                 }
